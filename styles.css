@@ -77,3 +77,43 @@ div {
     margin-left: 85px;
     width: 493px;
 }
+
+@media screen and (max-width: 900px) {
+    .logo-main {
+        margin: 50px 0 0 20px;
+    }
+
+    .header {
+        margin: 20px 0 0 20px;
+    }
+
+    .button-header {
+        width: 100px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .link-header {
+        font-size: 12px;
+        margin-right: 20px;
+    }
+
+    .h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .p {
+        width: auto;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .div {
+        display: block;
+        margin-left: 20px;
+        width: auto;
+    }
+}
